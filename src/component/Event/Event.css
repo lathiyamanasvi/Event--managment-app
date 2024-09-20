@@ -1,0 +1,64 @@
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.03); /* Slight zoom effect on hover */
+}
+
+.event-img {
+  height: 200px;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.event-img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+.event-btn {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.event-btn:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+.event-details-card {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-details-card:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect on hover */
+}
+
+.event-details-card .card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.animate-btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.animate-btn:hover {
+  background-color: #004085; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
